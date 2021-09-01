@@ -1,0 +1,159 @@
+page {
+    background-color: #ecebe8;
+
+}
+
+.user_info_wrap {
+    height: 45vh;
+    background-color: var(--themeColor);
+
+    .user_img_wrap {
+        position: relative;
+
+        .img-bg {
+            width: 100%;
+            height: 50vh !important;
+            filter: blur(4rpx);
+
+        }
+
+        .user_info {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 20%;
+            text-align: center;
+
+            .img-icon {
+                width: 190rpx;
+                height: 65rpx;
+                border-radius: 50%;
+                margin-bottom: 50rpx;
+            }
+
+            .user_name {
+                color: #fff;
+                font-size: 40rpx;
+            }
+        }
+    }
+
+    navigator {
+        color: #fff;
+        text-align: center;
+        line-height: 45vh;
+        font-size: 50rpx;
+        font-weight: 700;
+    }
+}
+
+
+.user_content {
+    position: relative;
+
+    .user_main {
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -40rpx;
+        color: #666;
+        padding-bottom: 100rpx;
+
+        .history_wrap {
+            display: flex;
+            background-color: #fff;
+
+            navigator {
+                flex: 1;
+                text-align: center;
+                padding: 10rpx 0;
+
+                .his_num {
+                    color: var(--themeColor);
+                }
+
+                .his_name {}
+            }
+        }
+
+        .my_order {
+            margin-top: 20rpx;
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+
+            .order-title {
+                flex: 1;
+                display: flex;
+                align-items: center;
+
+                padding: 25rpx;
+                border-bottom: 2px solid #ecebe8;
+            }
+
+            .order-content {
+                padding: 20rpx 0;
+                display: flex;
+
+                navigator {
+                    flex: 2;
+                    text-align: center;
+
+                    .iconfont {
+                        font-size: 50rpx;
+                        color: var(--themeColor);
+                        margin-bottom: 10rpx;
+                    }
+
+                    .order_text {}
+                }
+            }
+
+        }
+
+        .receive_address_management {
+            margin-top: 20rpx;
+            padding: 25rpx;
+            padding-left: 15rpx;
+            background-color: #fff;
+        }
+
+        .relation {
+            margin-top: 20rpx;
+            padding: 0 15rpx;
+            background-color: #fff;
+
+            .rel-CustomerService {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 2px solid #ecebe8;
+                padding-top: 25rpx;
+                padding-bottom: 25rpx;
+
+                .CustomerService {}
+
+                .tel {}
+            }
+
+            .opinion {
+                padding-top: 25rpx;
+                padding-bottom: 25rpx;
+                border-bottom: 2px solid #ecebe8;
+            }
+
+            .about {
+                padding-top: 25rpx;
+                padding-bottom: 25rpx;
+            }
+        }
+
+        .recommend {
+            margin-top: 20rpx;
+            padding: 25rpx;
+            padding-left: 15rpx;
+            background-color: #fff;
+        }
+    }
+}

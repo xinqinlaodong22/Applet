@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "searchinput": "../../components/SearchInput/SearchInput"
+    },
+    "navigationBarTitleText": "优购首页"
+}

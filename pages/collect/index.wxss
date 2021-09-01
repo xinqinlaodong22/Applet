@@ -1,0 +1,60 @@
+page {
+  background-color: #f2f3f6;
+}
+tabs .collect_main .collect_title {
+  padding: 20rpx;
+  display: flex;
+  border-top: 1rpx solid #ccc;
+}
+tabs .collect_main .collect_title .collect_tips {
+  margin-right: 15rpx;
+  border: 2rpx solid #ccc;
+  padding: 12rpx 10rpx;
+  background-color: #fff;
+}
+tabs .collect_main .collect_title .all {
+  color: var(--themeColor);
+  border-color: currentColor;
+}
+tabs .collect_main .collect_content {
+  display: flex;
+  height: 15vh;
+  justify-content: space-between;
+  padding: 20rpx 10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+tabs .collect_main .collect_content .collect_img {
+  width: 35%;
+  margin-right: 20rpx;
+}
+tabs .collect_main .collect_content .collect_img image {
+  width: 90%;
+  height: 100% !important;
+}
+tabs .collect_main .collect_content .collect_name_price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+tabs .collect_main .collect_content .collect_name_price .collect_name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+tabs .collect_main .collect_content .collect_name_price .collect_price_close {
+  display: flex;
+  justify-content: space-between;
+}
+tabs .collect_main .collect_content .collect_name_price .collect_price_close .collect_price {
+  color: var(--themeColor);
+}
+tabs .collect_main .collect_content .collect_name_price .collect_price_close .close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+  border: 2rpx solid #ccc;
+}

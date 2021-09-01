@@ -1,0 +1,32 @@
+<view class="address-info">
+    <view class="address">
+        <view class="uname">收货人:{{address.userName}}</view>
+        <view class="detail-address">{{address.all}}</view>
+    </view>
+    <view class="phone">{{address.telNumber}}</view>
+</view>
+
+<view class="cart">购物车</view>
+
+<view class="goods-info" wx:for="{{cart}}" wx:key="goods_id">
+    <view class="left-image">
+        <navigator url="" open-type="navigate">
+            <image src="{{item.goods_small_logo}}" mode="widthFix" />
+        </navigator>
+    </view>
+    <view class="right-content">
+        <view class="content">{{item.goods_name}}</view>
+        <view class="price-index">
+            <view class="price">￥{{item.goods_price}}</view>
+            <view class="index">X {{item.num}}</view>
+        </view>
+    </view>
+</view>
+
+<view class="tabbar">
+    <view class="content">
+        <view>合计:<text> ￥ {{totalPrice}}</text></view>
+        <view class="FreightCharges">包含运费</view>
+    </view>
+    <view class="pay" bindtap="handleOrderPay">支付({{totalNum}})</view>
+</view>

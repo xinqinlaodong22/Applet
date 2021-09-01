@@ -1,0 +1,64 @@
+page {
+  background-color: #edeeec;
+}
+.fb_main {
+  padding: 10rpx;
+  color: #666;
+}
+.fb_main .fb_title {
+  margin-bottom: 10rpx;
+}
+.fb_main .fb_options {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fb_main .fb_options .fb_item {
+  width: 30%;
+  line-height: 60rpx;
+  text-align: center;
+  background-color: #fff;
+  margin: 10rpx;
+}
+.fb_main .fb_content {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.fb_main .fb_content textarea {
+  width: 100%;
+  padding: 10rpx 8rpx;
+}
+.fb_main .fb_content .fb_tool {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fb_main .fb_content .fb_tool button {
+  margin: 0;
+  width: 90rpx;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 15rpx;
+  margin-bottom: 10rpx;
+  font-weight: 700;
+  font-size: 50rpx;
+  color: #ccc;
+  border: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+.fb_main .fb_content .fb_tool .up_img_item {
+  margin-right: 20rpx;
+}
+.fb_main .fb_btn {
+  background-color: var(--themeColor);
+  margin-top: 20rpx;
+  width: 30%;
+  margin-right: 0;
+}
+.fb_main .fb_btn icon {
+  vertical-align: bottom;
+}
+.fb_main .fb_btn text {
+  color: #fff;
+  font-weight: 100;
+}
